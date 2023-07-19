@@ -12,7 +12,7 @@ pip3 install pillow
 echo ""
 read -e -p "[*] Input your Bot Token : " bottoken
 read -e -p "[*] Input Your Id Telegram :" admin
-read -e -p "[*] Input Your Domain :" domain
+read -e -p "[*] Input Your Subdomain :" domain
 echo -e BOT_TOKEN='"'$bottoken'"' >> /root/xolpanel/var.txt
 echo -e ADMIN='"'$admin'"' >> /root/xolpanel/var.txt
 echo -e DOMAIN='"'$domain'"' >> /root/xolpanel/var.txt
@@ -20,9 +20,9 @@ clear
 echo "Done"
 echo "Your Data Bot"
 echo -e "==============================="
-echo "DOMAIN         : $bottoken"
-echo "Email          : $admin"
-echo "Api Key        : $domain"
+echo "Bot Token     : $bottoken"
+echo "Id Telegram   : $admin"
+echo "Subdomain     : $domain"
 echo -e "==============================="
 echo "Setting done"
 sleep 10
