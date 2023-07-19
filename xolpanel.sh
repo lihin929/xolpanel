@@ -25,6 +25,7 @@ echo "Email          : $admin"
 echo "Api Key        : $domain"
 echo -e "==============================="
 echo "Setting done"
+sleep 10
 
 cat > /etc/systemd/system/xolpanel.service << END
 [Unit]
@@ -45,7 +46,9 @@ systemctl enable xolpanel
 
 clear
 
+echo -e "==============================================="
 echo " Installations complete, type /menu on your bot"
+echo -e "==============================================="
 read -n 1 -s -r -p "Press any key to Reboot"
 reboot
 
