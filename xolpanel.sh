@@ -24,7 +24,7 @@ echo "Bot Token     : $bottoken"
 echo "Id Telegram   : $admin"
 echo "Subdomain     : $domain"
 echo -e "==============================="
-echo "Setting done"
+echo "Setting done Please wait 10s"
 sleep 10
 
 cat > /etc/systemd/system/xolpanel.service << END
