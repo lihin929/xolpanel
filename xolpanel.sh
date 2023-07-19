@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #install
+rm -rf xolpanel.sh
 apt update && apt upgrade
 apt install python3 python3-pip git
 git clone https://github.com/givpn/xolpanel.git
