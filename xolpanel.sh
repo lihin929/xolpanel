@@ -46,6 +46,3 @@ systemctl enable xolpanel
 clear
 
 echo " Installations complete, type /menu on your bot"
-read -n 1 -s -r -p "Press any key to Reboot"
-reboot
-
